@@ -1,0 +1,6 @@
+# usage for makeVector.R and cachemean.R
+x<-matrix(1:4,2,2)
+xx<-makeCacheMatrix(x)
+xx$get()
+yy<-cacheSolve(xx)
+xx$getsolve()
