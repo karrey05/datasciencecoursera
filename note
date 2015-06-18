@@ -1,0 +1,5 @@
+git pull
+git add newfile
+git rm newfile
+git commit newfile
+git push origin master
